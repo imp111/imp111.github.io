@@ -3616,7 +3616,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 		transition: transform 1s ease, opacity 1s ease;
 		background: rgba(255, 255, 255, 0.175);
-		height: 4rem;
+		height: 7rem;
 		line-height: 4rem;
 		margin: -4rem auto 0 auto;
 		overflow: hidden;
@@ -3764,6 +3764,10 @@ input, select, textarea {
 		z-index: 2;
 	}
 
+	#skills {
+		background-color: #212931;
+	}
+
 		#main > * {
 			padding: 4rem 4rem 2rem 4rem ;
 			border-top: solid 2px #eeeeee;
@@ -3785,7 +3789,7 @@ input, select, textarea {
 			#main > .post header.major > .date {
 				margin-top: -2rem;
 			}
-
+			
 			#main > .post header.major > h1, #main > .post header.major h2 {
 				font-size: 4rem;
 				line-height: 1.1;
